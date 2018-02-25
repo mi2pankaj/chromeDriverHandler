@@ -58,6 +58,7 @@ public class ChromedriverHandler
 			}
 		});
 
+		System.out.println("starting thread to monitor chrome driver ...");
 		return chromeDriverHandler; 
 	}
 
